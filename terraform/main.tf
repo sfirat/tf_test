@@ -1,3 +1,9 @@
+terraform {
+  required_version = "~> 0.14.0"
+  required_providers {
+    hyperv = "~> 1.0.0"
+  }
+  
 provider "hyperv" {
   user            = "hyper-v-adminr"
   password        = "P@ssw0rd232323"
